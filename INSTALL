@@ -1,0 +1,18 @@
+build and install galilel-ios
+-----------------------------
+
+1. clone the galilel-ios git repository: 
+
+   $> git clone https://github.com/Galilel-Project/galilel-ios.git
+
+2. open 'galilel-ios/GalilelWallet.xcodeproj' in XCode 5.0 or later
+
+3. select Product->Run
+
+**WARNING:** installation on jailbroken devices is strongly discouraged
+
+Any jailbreak app can grant itself access to every other app's keychain data
+and rob you by self-signing as described http://www.saurik.com/id/8 and
+including '<key>application-identifier</key><string>*</string>' in its
+'.entitlements' file.
+
